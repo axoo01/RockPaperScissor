@@ -6,13 +6,10 @@ const playerScoreDisplay = document.getElementById("playerScoreDisplay");
 const computerScoreDisplay = document.getElementById("computerScoreDisplay");
 const victoryModal = document.getElementById("victoryModal");
 const victoryMessage = document.getElementById("victoryMessage");
-const clickSound = document.getElementById("clickSound");
 let playerScore = 0;
 let computerScore = 0;
 
 function playGame(playerChoice) {
-    clickSound.play();
-
     const computerChoice = choices[Math.floor(Math.random() * choices.length)];
     let result = "";
 
