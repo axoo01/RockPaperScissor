@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
+        <div class="score-board">
+            <div class="score">Player: <span id="playerScoreDisplay">0</span></div>
+            <div class="score">Computer: <span id="computerScoreDisplay">0</span></div>
+        </div>
+        <div class="choices">
+            <button onclick="playGame('rock')" class="choice-btn" aria-label="Rock">👊🏾</button>
+            <button onclick="playGame('paper')" class="choice-btn" aria-label="Paper">✋🏾</button>
+            <button onclick="playGame('scissors')" class="choice-btn" aria-label="Scissors">✌🏾</button>
+        </div>
+        <div class="display">
+            <div id="playerDisplay">Player: --</div>
+            <div id="computerDisplay">Computer: --</div>
+            <div id="resultDisplay">Ready?Play!</div>
+        </div>
+        <button onclick="resetGame()" class="reset-btn">Reset Game</button>
+    </div>
+    <footer>© 2025 Axcel. All scissors sharpened.</footer>
+    <div id="victoryModal" class="modal">
+        <div class="modal-content">
+            <h2 id="victoryMessage"></h2>
+            <button onclick="closeModal()" class="modal-btn">Play Again</button>
+        </div>
+    </div>
+    <audio id="clickSound" src="data:audio/mp3;base64,/+MYxAAAAANIAAAAAExBTUUzLjk4LjIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
