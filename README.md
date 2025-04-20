@@ -1,7 +1,7 @@
 #  Rock Paper Scissors 
 
-A classic game of chance — built with HTML, CSS, and JavaScript!  
-Test your luck against the computer and see who reigns supreme.
+A classic game of chance — built with HTML, CSS, and JavaScript.  
+Test your luck against the computer and see who win!!.
 
 ## How to Play
 - Choose Rock, Paper, or Scissors.
