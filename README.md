@@ -1,12 +1,12 @@
 #  Rock Paper Scissors 
 
 A classic game of chance — built with HTML, CSS, and JavaScript.  
-Test your luck against the computer and see who win!!.
+Test your luck against the computer and see who wins!
 
 ## How to Play
-- Choose Rock, Paper, or Scissors.
-- The computer picks randomly.
-- First to score 5 points (or cry trying) wins!
+- Choose Rock, Paper, or Scissors
+- The computer picks randomly
+- First to score 3 points wins!
 
 ## 🚀 Live Demo
 [Click here to play!](https://axoo01.github.io/RockPaperScissor/)
